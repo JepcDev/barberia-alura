@@ -43,6 +43,8 @@ nav a{
   margin: 0 1.5%;
   padding: 30px 20px;/* los 20 px de espaciamiento interno no van a sobrepasar los 30% que definimos del ancho seran contabilizados dentro del 30%*/
   box-sizing: border-box;/* el borde de cada uno de los items sera el limite del espacio que va ser definido */
+  border: 2px solid #000000;
+  border-radius: 10px;
 }
 
 .productos h2 {
