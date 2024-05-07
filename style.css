@@ -210,6 +210,12 @@ td, th{
   line-height: 1.5;
 }
 
+/* :nth-child(#numero)  mandamos como parametro el #numero o posicion del elemento queremos modificar */
+/* :nth-child(2n) se pintan solo los pares */
+.items:first-child{
+  font-weight: bold;
+}
+
 .imagen-diferenciales{
   width: 60%;
 }
