@@ -160,6 +160,22 @@ td, th{
   clear: left;
 }
 
+/* .titulo-principal:first-letter{
+  font-weight: bold;
+} */
+
+/* p:first-line{
+  font-style: italic;
+} */
+
+/* .titulo-principal:before{
+  content: "[";
+}
+
+.titulo-principal:after{
+  content: "]";
+} */
+
 .banner{
   width: 100%;
 }
@@ -225,6 +241,10 @@ td, th{
 .items{
   /* 1.5 --> 1 + 50% del tamaño padron de la fuente(letras) */
   line-height: 1.5;
+}
+
+.items:before{
+  content: "★";
 }
 
 /* :nth-child(#numero)  mandamos como parametro el #numero o posicion del elemento queremos modificar */
