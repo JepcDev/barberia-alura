@@ -94,10 +94,9 @@ footer{
   margin: 20px;
 }
 
-main{
-  width: 940px;
-  margin: 0 auto;
-}
+/* main{
+
+} */
 
 form{
   margin: 40px 0;
@@ -154,7 +153,6 @@ td, th{
 }
 
 /* CSS para nuestra home */
-
 .titulo-principal{
   text-align: center;
   font-size: 2em;
@@ -164,6 +162,13 @@ td, th{
 
 .banner{
   width: 100%;
+}
+
+.principal{
+  padding: 3em 0;
+  background: #FEFEFE;
+  width: 940px;
+  margin: 0 auto;
 }
 
 .principal p{
@@ -187,11 +192,23 @@ td, th{
 .mapa{
   /* 3em -> 3 veces el tamaño de la fuente */
   padding: 3em 0;
+  /* background: linear-gradient(90deg, orange 50%, blue, red, black); */
+  background: linear-gradient(#FEFEFE, #888888);
 }
 
 .mapa p{
   margin: 0 0 2em;
   text-align: center;
+}
+
+.mapa-contenido{
+  width: 940px;
+  margin: 0 auto;
+}
+
+.diferenciales{
+  padding: 3em 0;
+  background: #888888;
 }
 
 .contenido-diferenciales{
