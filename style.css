@@ -158,6 +158,9 @@ td, th{
   font-size: 2em;
   margin: 0 0 1em;
   clear: left;
+  /* color: rgba(0, 0, 0, 0.3); */
+  /* sombra en el texto 10px es el expansion de la sombra*/
+  /* text-shadow: 2px 2px 10px red; */
 }
 
 /* .titulo-principal:first-letter{
@@ -179,6 +182,23 @@ td, th{
 .banner{
   width: 100%;
 }
+
+/* Solo aplica a los parrafos hijos de main
+main > p{
+  background: red;
+}
+elemento > hijo */
+/* Seleccioname el primer parrafo que viene despues de la imagen */
+/* img + p {} */
+/* Selecciona todos los parrafos despues de la imagen */
+/* img ~ p{} */
+/* Selecciona todos los parrafos menos al que tiene id:mision */
+/* .principal p:not(#mision){} */
+
+/* La dimension de la imagen es 40% la dimension de la pantalla menos 26 pixeles */
+/* img{
+  width: calc(40% - (26px));
+} */
 
 .principal{
   padding: 3em 0;
@@ -225,6 +245,8 @@ td, th{
 .diferenciales{
   padding: 3em 0;
   background: #888888;
+  /* sombra interna */
+  /* box-shadow: inset 0 0 30px red; */
 }
 
 .contenido-diferenciales{
@@ -255,6 +277,12 @@ td, th{
 
 .imagen-diferenciales{
   width: 60%;
+  transition: 400ms;
+  box-shadow: 10px 10px 30px 15px #000000;
+}
+
+.imagen-diferenciales:hover{
+  opacity: 0.3;
 }
 
 .video{
